@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  kafka:
+    topic-order: "order-topic"
+    topic-order-status: "order-status-topic"
+    group-id: "order-status-group"
+
+server:
+  port: 8081
